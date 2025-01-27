@@ -27,8 +27,9 @@ Read the corresponding sections for more information.
 
 ### GitHub Releases MSI
 1. Visit [the releases page](https://github.com/OldUser101/IELaunch/releases) and download the appropriate MSI package for your system.
-2. Open the downloaded package and follow the instructions in the setup wizard.
-3. Run `IELaunch` to start Internet Explorer.
+2. Open the downloaded package and wait for the installation to complete.
+3. Desktop and Start Menu shortcuts are created automatically.
+4. Run `IELaunch` to start Internet Explorer.
 
 ### GitHub Releases EXE
 1. Visit [the releases page](https://github.com/OldUser101/IELaunch/releases) and download the appropriate ZIP package for your system.
