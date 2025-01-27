@@ -2,7 +2,7 @@
 IELaunch is a Windows application designed to launch Internet Explorer under Windows 10 and greater, where it is no longer possible due to operating system restrictions.
 This is helpful for legacy applications that require Internet Explorer to function. 
 
-⚠ **WARNING**: Internet Explorer is no longer supported by Microsoft, and may be vulnerable. See [this notice](https://github.com/OldUser101/IELaunch/edit/master/README.md#notice) or the Microsoft website for further details.
+⚠ **WARNING**: Internet Explorer is no longer supported by Microsoft, and may be vulnerable. See [this notice](https://github.com/OldUser101/IELaunch#notice) or the Microsoft website for further details.
 
 ## Compatibility
 IELaunch is compatible with the following operating systems:
@@ -29,7 +29,7 @@ Read the corresponding sections for more information.
 1. Visit [the releases page](https://github.com/OldUser101/IELaunch/releases) and download the appropriate MSI package for your system.
 2. Open the downloaded package and wait for the installation to complete.
 3. Desktop and Start Menu shortcuts are created automatically.
-4. Run `IELaunch` to start Internet Explorer.
+4. Run `IELaunch` from the Desktop or Start Menu to start Internet Explorer.
 
 ### GitHub Releases EXE
 1. Visit [the releases page](https://github.com/OldUser101/IELaunch/releases) and download the appropriate ZIP package for your system.
