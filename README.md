@@ -48,4 +48,4 @@ Prerequisites:
 4. Locate the compiled binaries, look for `IELaunch.exe` in your project directory.
 
 ## Notice
-⚠ WARNING: Internet Explorer is **deprecated** and is no longer supported by Microsoft. This means it will no longer receive important security updates. Check Microsoft's website for further details. IELaunch is intended for legacy applications where Internet Explorer is required. It is **strongly** recommended that you do not use Internet Explorer. 
+⚠ **WARNING**: Internet Explorer is **deprecated** and is no longer supported by Microsoft. This means it will no longer receive important security updates. Check Microsoft's website for further details. IELaunch is intended for legacy applications where Internet Explorer is required. It is **strongly** recommended that you do not use Internet Explorer. 
