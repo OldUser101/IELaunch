@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Package Name="IELaunch" Manufacturer="Nathan Gill" Version="1.0.0.0" UpgradeCode="fe765734-fce6-4707-997d-fbdabd878eba">
+        <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+		<MediaTemplate EmbedCab="yes" />
+        <Feature Id="Main" Title="IELaunch Feature" Level="1">
+            <ComponentGroupRef Id="MainComponents" />
+        </Feature>
+    </Package>
+</Wix>

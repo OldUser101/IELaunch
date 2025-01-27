@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+	  <ComponentGroup Id="MainComponents" Directory="INSTALLFOLDER">
+		  <Component Id="IELaunchExe" Guid="{22E6DBB5-7B9E-473D-B0ED-BD3A589C9AC0}">
+			  <File Source="IELaunch.exe" KeyPath="yes"/>
+		  </Component>
+		  <Component Id="License" Guid="{7E80D49D-386F-425B-A7DA-850EC5C321FB}">
+			  <File Source="LICENSE" KeyPath="yes" />
+		  </Component>
+		  <Component Id="Readme" Guid="{37F222D8-A5B8-4C90-89F2-6196F78F3194}">
+			  <File Source="README.md" KeyPath="yes" />
+		  </Component>
+		  <Component Id="DesktopShortcut" Guid="{8FE6BBFC-E962-4FAA-9CB6-57148B8DD907}" Directory="DesktopFolder">
+			  <Shortcut Id="ThisDesktopShortcut"
+						Name="Internet Explorer (IELaunch)"
+						Description="Starts Internet Explorer."
+						Directory="DesktopFolder"
+						Target="[INSTALLFOLDER]IELaunch.exe"
+						WorkingDirectory="INSTALLFOLDER"/>
+			  <RegistryValue Root="HKCU" Key="Software\!(bind.Property.Manufacturer)\!(bind.Property.ProductName)" Name="DesktopShortcut" Type="integer" Value="1" KeyPath="yes" />
+		  </Component>
+		  <Component Id="StartMenuShortcut" Guid="{407BB226-98F2-4885-A766-2EF0330E3447}" Directory="StartMenuFolder">
+			  <Shortcut Id="ThisStartMenuShortcut"
+						Name="Internet Explorer (IELaunch)"
+						Description="Starts Internet Explorer."
+						Directory="StartMenuFolder"
+						Target="[INSTALLFOLDER]IELaunch.exe"
+						WorkingDirectory="INSTALLFOLDER"/>
+			  <RegistryValue Root="HKCU" Key="Software\!(bind.Property.Manufacturer)\!(bind.Property.ProductName)" Name="StartMenuShortcut" Type="integer" Value="1" KeyPath="yes" />
+		  </Component>
+	  </ComponentGroup>
+  </Fragment>
+</Wix>
