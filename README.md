@@ -41,6 +41,7 @@ Read the corresponding sections for more information.
 Prerequisites:
 - **Microsoft Visual Studio** (Tested with Visual Studio 2022, but may work on older versions), with C++ Desktop Development workload.
 - **Windows SDK** (Tested with version 10, but may work with older versions). Automatically installed when selecting C++ Desktop Development workload in Visual Studio.
+- **WiX Toolset v5** for building installer.
 
 1. Clone this repository with `git clone https://github.com/OldUser101/IELaunch.git`.
 2. Open the solution file `IELaunch.sln` in Visual Studio.
