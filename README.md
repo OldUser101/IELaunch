@@ -20,7 +20,7 @@ IELaunch may function on **ARM64** architectures, but this has not been tested, 
 ## Installation
 IELaunch can be installed in one of the following ways:
 - GitHub Releases MSI (recommended)
-- GitHub Releases EXE
+- GitHub Releases ZIP
 - Building from source
 
 Read the corresponding sections for more information.
@@ -31,7 +31,7 @@ Read the corresponding sections for more information.
 3. Desktop and Start Menu shortcuts are created automatically.
 4. Run `IELaunch` from the Desktop or Start Menu to start Internet Explorer.
 
-### GitHub Releases EXE
+### GitHub Releases ZIP
 1. Visit [the releases page](https://github.com/OldUser101/IELaunch/releases) and download the appropriate ZIP package for your system.
 2. Extract the contents of the downloaded ZIP file into a directory of your choice.
 3. Run `IELaunch.exe` to start Internet Explorer.
